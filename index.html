@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Dog Breed</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Find a Dog Breed</h1>
+
+    <form id="form">
+        <label class="breed" for="breed">Breed Name:</label>
+        <br>
+        <input type="text" id="breed" name="breed" placeholder="Enter breed name" />
+        <br>
+
+        <label class="temperament" for="select">Temperament:</label>
+        <br>
+        <select id="select" name="temperament">
+            <option class="temp" value="">-- Select a Temperament --</option>
+            <option value="Playful">Playful</option>
+            <option value="Friendly">Friendly</option>
+            <option value="Energetic">Energetic</option>
+            <option value="Loyal">Loyal</option>
+            <option value="Protective">Protective</option>
+            <option value="Intelligent">Intelligent</option>
+            <option value="Affectionate">Affectionate</option>
+        </select>
+        <br><br>
+        <button type="submit">Search</button>
+    </form>
+
+    <!-- 🐉 Dog cards -->
+    <div id="breeds"></div>
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

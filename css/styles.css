@@ -1,0 +1,91 @@
+/* Blue gradient background */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #d4f1ec 0%, #7f9fc0 45%, #13277a 100%);
+  margin: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* The form box */
+#form {
+  background-color: #e0e5ef;
+  width: 25rem;
+  padding: 3rem;
+  margin: 0 auto;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Labels: bold and blue */
+.breed,
+.temperament {
+  color: #0f287c;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Input and dropdown */
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+/* Red border when you click in a box */
+input:focus,
+select:focus {
+  outline: none;
+  border-color: red;
+}
+
+/* Search button */
+button {
+  background-color: #0f287c;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e86130;
+}
+
+
+#breeds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+
+.dog-card {
+  background-color: white;
+  width: 16rem;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* Card image with red stripe underneath */
+.dog-card img {
+  width: 100%;
+  height: 12rem;
+  border-bottom: 4px solid #e57373;
+}
+
+
+.dog-card h2 {
+  color: #36558e;
+}
+
+/* Life span and temperament part*/
+.dog-card p {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
